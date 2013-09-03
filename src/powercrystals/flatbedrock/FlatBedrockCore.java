@@ -12,12 +12,12 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.common.registry.TickRegistry;
 import cpw.mods.fml.relauncher.Side;
-
+@NetworkMod(clientSideRequired = true, serverSideRequired = false);
 @Mod(modid = FlatBedrockCore.modId, version = FlatBedrockCore.version, name = FlatBedrockCore.modName, dependencies = "required-after:PowerCrystalsCore")
 public class FlatBedrockCore extends BaseMod implements IUpdateableMod
 {
 	public static final String modId = "FlatBedrock";
-	public static final String version = "1.5.1R1.1.1";
+	public static final String version = "1.6.2R0.1";
 	public static final String modName = "FlatBedrock";
 	public static boolean doFlatten = false;
 	
